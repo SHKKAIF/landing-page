@@ -1,5 +1,6 @@
+#SIMPLE LANDING PAGE
 <pre>
-  This repository contains the source code for a simple, responsive landing page designed to showcase a product or service. The landing page is built with HTML, CSS, and JavaScript, focusing on a clean and modern design, usability, and responsiveness.
+This repository contains the source code for a simple, responsive landing page designed to showcase a product or service. The landing page is built with HTML, CSS, and JavaScript, focusing on a clean and modern design, usability, and responsiveness.
 
 Project Overview
 Project Title: Simple Landing Page
