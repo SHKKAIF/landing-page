@@ -1,0 +1,178 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: #000;
+}
+
+/* Header Styling */
+header {
+    background: #000;
+    color: #007bff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Hero Section Styling */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-content {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better text readability */
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Contact Section Styling */
+.contact {
+    padding: 2rem;
+    background: #1a1a1a;
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #444;
+    border-radius: 0.25rem;
+    background: #333;
+    color: #fff;
+}
+
+.contact button {
+    padding: 0.75rem;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background: #000;
+    color: #007bff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Pop-up Modal Styling */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Black with opacity */
+}
+
+.popup-content {
+    background-color: #333;
+    margin: 15% auto;
+    padding: 2rem;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.close-btn {
+    color: #fff;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #ff0000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .contact {
+        padding: 1.5rem;
+    }
+}
